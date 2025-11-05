@@ -1,0 +1,21 @@
+/* 整個頁面背景色 */
+body {
+    background-color: #f0f8ff; /* 淺藍色背景 */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* 文字置中 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 標題樣式 */
+h1 {
+    color: #1e90ff; /* 達克藍色 */
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+/* 滑鼠經過標題時變色 */
+h1:hover {
+    color: #ff6347; /* 番茄紅 */
+    transition: color 0.3s ease;
+}
